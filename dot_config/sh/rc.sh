@@ -17,3 +17,5 @@ source /Users/jose/.config/op/plugins.sh
 # fzf
 source <(fzf --zsh)
 
+# Chezmoi
+source <(chezmoi completion zsh)
