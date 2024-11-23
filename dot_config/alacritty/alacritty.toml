@@ -1,0 +1,61 @@
+shell = "/bin/zsh"
+working_directory = "None"
+live_config_reload = true
+ipc_socket = true
+
+[window]
+    dimensions = {columns = 0, lines = 0}
+    position = "None"
+    padding = {x = 0, y = 0}
+    dynamic_padding = true
+    decorations = "Full"
+    opacity = 0.90
+    blur = true
+    startup_mode = "Windowed"
+    title = "Alacritty"
+    dynamic_title = true
+    decorations_theme_variant = "None"
+    option_as_alt = "None"
+
+[scrolling]
+    history = 10000
+    multiplier = 3
+
+[font]
+    normal.family = "FiraCode Nerd Font"
+    bold.family = "FiraCode Nerd Font"
+    italic.family = "FiraCode Nerd Font"
+    bold_italic.family = "FiraCode Nerd Font"
+    size = 13
+
+[cursor]
+    vi_mode_style = {shape = "Block", blinking = "Off"}
+
+[keyboard]
+    bindings = [
+#        { key = "V", mods = "Command|Shift", action = "Paste" },
+#        { key = "C", mods = "Command|Shift", action = "Copy"  },
+        { key = "V", mods = "Command", action = "Paste" },
+        { key = "C", mods = "Command", action = "Copy"  },
+        { key = "T", mods = "Command|Shift", action = "CreateNewTab" },
+        { key = "1", mods = "Command", action = "SelectTab1" },
+        { key = "2", mods = "Command", action = "SelectTab2" },
+        { key = "3", mods = "Command", action = "SelectTab3" },
+        { key = "4", mods = "Command", action = "SelectTab4" },
+        { key = "5", mods = "Command", action = "SelectTab5" },
+        { key = "6", mods = "Command", action = "SelectTab6" },
+        { key = "7", mods = "Command", action = "SelectTab7" },
+        { key = "8", mods = "Command", action = "SelectTab8" },
+        { key = "9", mods = "Command", action = "SelectTab9" },
+        { key = "Space", mods = "Shift", action = "ToggleViMode"  },
+        { key = "F", mods = "Command|Shift", action = "ToggleSimpleFullscreen"  },
+        { key = "K", mods = "Option", chars = "\u001b[A"  },
+        { key = "F", mods = "Control|Shift", action = "SearchForward"  },
+        { key = "H", mods = "Control", mode = "Search", action = "SearchFocusNext"  },
+        { key = "L", mods = "Control", mode = "Search", action = "SearchFocusPrevious"  },
+        { key = "D", mods = "Control", mode = "Search", action = "SearchClear"  },
+        { key = "J", mods = "Control", mode = "Search", action = "SearchHistoryNext"  },
+        { key = "K", mods = "Control", mode = "Search", action = "SearchHistoryPrevious"  },
+        { key = "Enter", mods = "Control", mode = "Search", action = "SearchConfirm"  },
+        { key = "Escape", mode = "Search", action = "SearchConfirm"  },
+    ]
