@@ -1,0 +1,96 @@
+{
+    "terminal.integrated.defaultProfile.linux": "sh",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-d>": true,
+        "<C-x>": false,
+        "<C-b>": false,
+        "<C-w>": false,
+        "<C-v>": false,
+        "<C-c>": false,
+        "<C-f>": false,
+        "<M-j>": true,
+        "<D-c>": false,
+        "<C-Space>": false,
+    },
+    "editor.formatOnSave": true,
+    "files.associations": {
+        ".clang-tidy": "yaml"
+    },
+    "cmake.configureOnOpen": true,
+    "cmake.preferredGenerators": [
+        "Ninja",
+    ],
+    "workbench.startupEditor": "none",
+    "editor.guides.bracketPairs": "active",
+    "cmake.generator": "Ninja",
+    "settingsSync.ignoredExtensions": [
+        "ms-vscode.cpptools-themes",
+        "fredericbonnet.cmake-test-adapter"
+    ],
+    "C_Cpp.suggestSnippets": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cmake.options.statusBarVisibility": "hidden",
+    "cmake.showOptionsMovedNotification": false,
+    "dev.containers.dockerPath": "podman",
+    "keyboard.dispatch": "keyCode",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "cmake.ignoreCMakeListsMissing": true,
+    "cmake.ignoreKitEnv": true,
+    "doxdocgen.generic.dateFormat": "DD-MM-YYYY",
+    "C_Cpp.doxygen.generatedStyle": "/**",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.inlayHints.enabled": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "editor.accessibilitySupport": "off",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "cmake.ctest.allowParallelJobs": true,
+    "codeium.enableConfig": {
+        "*": true
+    },
+    "rust-analyzer.restartServerOnConfigChange": true,
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.testExplorer": true,
+    "rust-analyzer.debug.openDebugPane": true,
+    "github.gitProtocol": "ssh",
+    "github.copilot.chat.search.semanticTextResults": true,
+    "inlineChat.acceptedOrDiscardBeforeSave": false,
+    "inlineChat.experimental.enableZoneToolbar": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.highlightGroups.highlights": {
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground"
+        },
+        "CurSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground"
+        },
+        "Substitute": {
+            "backgroundColor": "theme.editor.foreground",
+            "color": "theme.editor.background"
+        }
+    },
+    "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.lua",
+    "vscode-neovim.compositeKeys": {
+        "jj": {
+            "command": "vscode-neovim.escape",
+        },
+    },
+    "vim.enableNeovim": true,
+    "vim.neovimUseConfigFile": true,
+    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
+    "editor.fontFamily": "FiraCode Nerd Font, monospace",
+    "editor.fontLigatures": "'cv02','ss05','ss03','cv30'",
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.experimental.showMoves": true,
+    "vscode-neovim.neovimClean": true,
+}

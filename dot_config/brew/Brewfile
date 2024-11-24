@@ -1,0 +1,97 @@
+tap "homebrew/bundle"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# GNU debugger for arm-none-eabi cross development
+brew "arm-none-eabi-gdb"
+# GNU binary tools for native development
+brew "binutils"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# On-chip debugging, in-system programming and boundary-scan testing
+brew "open-ocd"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Collection of on chip debugging tools to communicate with microchips
+brew "probe-rs-tools"
+# Rust toolchain installer
+brew "rustup"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Application uninstaller
+cask "appcleaner"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
+# Compare files and folders
+cask "beyond-compare"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# GUI companion app for Homebrew
+cask "cork"
+cask "font-fira-code-nerd-font"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Browse, manage, inspect containers and images
+cask "podman-desktop"
+# Open-source code editor
+cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
+# Native desktop client for WhatsApp
+cask "whatsapp"
+vscode "albert.tabout"
+vscode "asvetliakov.vscode-neovim"
+vscode "bierner.markdown-mermaid"
+vscode "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
+vscode "charliermarsh.ruff"
+vscode "cheshirekow.cmake-format"
+vscode "cschlosser.doxdocgen"
+vscode "george-alisson.html-preview-vscode"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.remotehub"
+vscode "github.vscode-github-actions"
+vscode "jebbs.plantuml"
+vscode "llvm-vs-code-extensions.vscode-clangd"
+vscode "marus25.cortex-debug"
+vscode "mcu-debug.debug-tracker-vscode"
+vscode "mcu-debug.memory-view"
+vscode "mcu-debug.peripheral-viewer"
+vscode "mcu-debug.rtos-views"
+vscode "ms-python.debugpy"
+vscode "ms-python.isort"
+vscode "ms-python.mypy-type-checker"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.copilot-mermaid-diagram"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.live-server"
+vscode "ms-vscode.remote-repositories"
+vscode "ms-vscode.remote-server"
+vscode "probe-rs.probe-rs-debugger"
+vscode "redhat.vscode-yaml"
+vscode "rust-lang.rust-analyzer"
+vscode "ryanluker.vscode-coverage-gutters"
+vscode "tamasfe.even-better-toml"
+vscode "twxs.cmake"
+vscode "vadimcn.vscode-lldb"
+vscode "vscodevim.vim"
+vscode "yinfei.luahelper"
